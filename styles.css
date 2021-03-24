@@ -259,8 +259,8 @@ h3{
 }
 
 .footer-icons img{
-    margin: 7.5px;
     cursor: pointer;
+    margin: 8px;
     padding-bottom: 8px;
 }
 
@@ -334,7 +334,11 @@ h6{
     top: -20px;
 }
 
-@media only screen and (max-width:395px){
+@media only screen and (min-width:345px){
+   body{
+       overflow-x: hidden;
+   }
+   
     .bg{
         width: 100vw;
         height: 85vh;
@@ -462,6 +466,7 @@ h6{
            /* justify-content: space-around; */
            /* position: relative; */
            left: -5px;
+           overflow-x: hidden;
        }
 
        .creation-header{
@@ -535,7 +540,8 @@ h6{
        }
 
        .footer-logo img{
-           margin-left: -22vw;
+           
+margin-left: -22vw;
        }
 
        .footer-nav{
@@ -565,7 +571,7 @@ h6{
 
        .footer-icons{
            position: relative;
-           top: 240px;
+           top: 38vh;
            left: 6vw;
            z-index: 5;
        }
@@ -595,9 +601,17 @@ h6{
         text-align: center;
         min-width: 100%;
         left: -67vw;
-        top: 20vh;
+        top: 24vh;
         /* margin-bottom: 0; */
         height: 20px;
+    }
+
+    .attribution{
+        display: none;
+    }
+
+    .navlinks{
+        display: none;
     }
 
 
