@@ -64,7 +64,7 @@ nav ul li {
     top: 0;
     left: 0;
     width: 100vw;
-    height:87vh;
+    height: 87vh;
     z-index: -1;
 }
 
@@ -404,7 +404,7 @@ margin-left: 50px;
     .mobile-bg{
         display: block;
         width: 100vw;
-        height: vh;
+        height: 100vh;
         position: absolute;
         top: 0;
     }
@@ -422,21 +422,20 @@ margin-left: 50px;
     
     .middle-container img {
    
-width: 80vw;
+width: 25em;
    
 /* position: static; */
    
-left: -60px;
+left: -95px;
    
 top: 25px;
-   
 }
     
     .interactive-text{
       
 bottom: 0;
       
-left: -70%;
+left: -120px;
     }
     
     .interactive-header{
@@ -448,7 +447,11 @@ text-align: center;
         
 text-align: center;
         
-width: 300px;
+
+        
+position: relative;
+        
+left: -35px;
     }
 }
 
@@ -461,13 +464,7 @@ width: 300px;
     .bg{
         width: 100vw;
         height: 85vh;
-    }
-
-    .burger{
-        display: block;
-    }
-   
-    
+    }    
 
        .title-text{
            height: auto;
@@ -485,9 +482,7 @@ width: 300px;
        .mobile-bg{
            display: block;
            width: 100vw;
-           height: vh;
-           position: absolute;
-           top: 0;
+           height: 87vh;
        }
 
        .middle-container{
@@ -500,11 +495,14 @@ width: 300px;
        }
 
        .middle-container img{
-           width: 100%;
-           position: static;
+           width: 85vw;
+           /* position: static; */
            height: 200px;
-           margin-top: 100px;
-           margin-left: 6vw;
+           /* margin-top: 100px; */
+           /* margin-left: 6vw; */
+           position: relative;
+           left: -20px;
+           top: 250px;
        }
 
        .interactive-img{
@@ -517,14 +515,14 @@ width: 300px;
        }
 
        .interactive-text{
-           top: -280px;
-           width: 100%;
-           align-content: center;           
+           top: 200px;
+           /* width: 100%; */
+           /* align-content: center; */
            padding: 10px;
-           margin-top: 260px;           
-           background: transparent;
-           position: relative;
-           left: -40vw;
+           /* margin-top: 260px; */
+           /* background: transparent; */
+           /* position: relative; */
+           /* left: -40vw; */
        }
 
        .interactive-header{
