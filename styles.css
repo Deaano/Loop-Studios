@@ -296,16 +296,10 @@ nav ul li {
 
 .footer-nav a:hover{
     border-bottom: 2px solid white;
+    
 }
 
-.footer-nav a{  
-color: white;  
-text-decoration: none;  
-margin-left: 15px; 
-font-family: 'Alata', sans-serif; 
-margin-bottom: 20px;  
-margin-left: 50px;
-}
+.footer-nav a{color: white;text-decoration: none;margin-left: 15px;font-family: 'Alata', sans-serif;margin-bottom: 20px;margin-left: 50px;}
 
 @media only screen and (max-width:1240px) {
     .title-text{
@@ -535,44 +529,35 @@ display: flex;
 flex-direction: column;
 }
 
-    .creation-header{
-        
-font-size: 9vw;
-        
-width: 90vw;
-        
-text-align: center;
-        
-margin-left: -19px;
-        
-margin-bottom: 25px;
-    }
+.creation-header{        
+    font-size: 9vw;        
+    width: 90vw;        
+    text-align: center;        
+    margin-left: -19px;        
+    margin-bottom: 25px;
+}
 
-    .see-all-btn{
-        
-display: none;
-    }
+.see-all-btn{      
+       display: none;
+}
 
-    .mobile-third-container{
-        width: 80vw;
-        /* margin-left: 10vw; */
-    }
+.mobile-third-container{
+    width: 80vw;
+}
 
-    .img-box{
-        display: none;
-    }
+.img-box{
+    display: none;
+}
 
-    .mobile-img-box{
-        margin-bottom: 25px;
-        /* margin-left: -10px; */
-        background: black;
-        height: 17.2vh;
-        width: 100%;
-    }
+.mobile-img-box{
+    margin-bottom: 25px;
+    background: black;
+    height: 17.2vh;
+    width: 100%;
+}
 
     .mobile-creation-text{
         display: block;
-        /* margin-left: 20px; */
         color: white;
         font-size: 7vw;
     }
@@ -592,40 +577,29 @@ display: none;
 
     .mobile-img{
         display: block;
-        /* margin-top: 11px; */
-        /* padding: 0; */
-        /* width: 90vw; */
-        /* height: 150px; */
-        /* padding: 5px; */
-        /* margin-left: 18.8px; */
-        /* margin-bottom: 10px; */
-        /* background: black; */
         opacity: 0.4;
         width: 100%;
-        /* margin-left: 2vw; */
         height: 17.2vh;
     }
 
     .mobile-text-box{
-        /* width: 80vw; */
-        /* margin-left: 10vw; */
-        position: relative;
-        ve; */
-;
+        position: relative;;
         top: -15.5vw;
         color: white;
         font-family: 'Josefin Sans', sans-serif;
-        /* padding: 15px; */
         font-size: rem;
-        /* font-weight: 200; */
-        /* letter-spacing: 1.2px; */
-        /* margin-bottom: -125px; */
         margin-left: 4.5vw;
     }
 
     .logo-and-icons{
-        margin-left: 5vw;
-        /* width: ; */
+        
+/* margin-left: 5vw; */
+        
+margin: 0;
+        
+/* padding: 0; */
+        
+margin-left: 25.5vw;
     }
 
     .footer-logo{
@@ -640,21 +614,17 @@ display: none;
         text-align: center;
         margin-left: -10vw;
         margin-bottom: 35px;
+        /* justify-content: center; */
+        align-items: center;
     }
 
     .footer-text-and-links{
     width: 100%;
     }
 
-    .footer-nav a{
-        /* border-width: inherit; */
-    }
-
 .mb-footer-social-icon{
-
-display: block;
-
-width: 30px;
+    display: block;
+    width: 30px;
 }
 
 .footer-social-icon{
@@ -665,18 +635,24 @@ width: 30px;
     display: none;
 }
 
-    .mb-footer-social-icon-facebook{
-        display: block;
-        width: 30px;
-        /* margin-top: 30px; */
-    }
+.mb-footer-social-icon-facebook{
+    display: block;
+    width: 30px;
+}
 
-    .mb-icons{
-        display: flex;
-        justify-content: space-evenly;
-        width: px;
-        margin-top: 20px;
-    }
+.mb-icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: px;
+    margin-top: 20px;
+}
+
+.footer-nav a:hover{
+    border-bottom: 2px solid white;
+    width: fit-content;
+    
+
+}
 
     
 
@@ -940,18 +916,10 @@ top: -55px;
     h6{
         color: hsl(0, 0%, 41%);
         font-size: 1.1rem;
-        /* width: 100%; */
-        /* text-align: center; */
         min-width: 100vw;
-        /* left: -100vw; */
-        top: 24vh;
-        /* margin-bottom: 0; */
+        top: 24vh;        
         height: 20px;
         margin-left: -135vw;
-    }
-
-    .attribution{
-        display: none;
     }
 
     .navlinks{
