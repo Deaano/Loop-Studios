@@ -11,6 +11,36 @@ body{
     overflow-x: hidden;
 }
 
+.menu{
+    display: none;
+}
+
+.menu-show{
+    width: 100vw;
+    height: 100vh;
+    background-color:black;
+    position: fixed;
+    margin-top: -50px;
+    z-index: 50;
+    
+}
+
+.menu-links{
+    width: fit-content;
+}
+
+.menu-links ul li a{
+    text-decoration: none;
+    font-size: 4rem;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.loopstudio-img-menu {
+    margin-left: 11%;
+    position: fixed;
+}
+
 /*      NAVBAR      */
 
 nav{
@@ -55,6 +85,16 @@ nav ul li {
 
 .burger{
     display: none;
+    cursor: pointer;
+}
+
+.close-menu{
+    position: fixed;
+    display: none;
+    width: 30px;
+    z-index: 51;
+    cursor: pointer;
+    left: 80vw;
 }
 
 /*       LANDING PAGE       */
@@ -88,7 +128,7 @@ nav ul li {
     font-size: 4rem;
     color: white;
     border: 4px solid white;
-    width: 46%;
+    width: 49rem;
     letter-spacing: 6px;
     font-weight: 300;
     line-height: 69px;
@@ -316,44 +356,35 @@ nav ul li {
 
     .footer-social-icon-facebook{
 
-margin-left: 47vw;
-}
+        margin-left: 47vw;
+    }
 
-.logo-and-icons{/* text-align: initial; */margin-left: 10vw;}
+    .logo-and-icons{
+        margin-left: 10vw;
+    }
 
-.creations-container{
-    
-margin-top: 100px;
-    
-margin-left: 100px;
-}
+    .creations-container{
 
-.third-container{
-    
-margin: 0;
-    
-margin-left: 90px;
-}
+        margin-top: 100px;
+        margin-left: 100px;
+    }
 
-.img-box{
-    
-margin: 10px;
-    
-width: 210px;
-}
+    .third-container{
+        margin: 0;
+        margin-left: 90px;
+    }
 
-.creation-text{
-    
-font-size: 2.5vw;
-}
+    .img-box{
+        margin: 10px;
+        width: 210px;
+    }
 
-.text-box{
-    
-top: -100px;
-}
+    .creation-text{    
+        font-size: 2.5vw;
+    }
 
-    .footer-social-icon{
-        
+    .text-box{    
+        top: -100px;
     }
 
     .footer-nav{
@@ -364,98 +395,68 @@ top: -100px;
 @media only screen and (max-width:1000px) {
     
     .navlinks{
-        display: none;
+        /* display: none; */
+        /* text-align: center; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        margin-left: 19%;
     }
 
     nav{
         justify-content: space-between;
+        display: block;
+        text-align: center;
+    }
+
+    nav ul{
+        
+/* text-align: center; */
+        
+/* margin-left: 0%; */
+        
+margin-top: 40px;
     }
 
     .loopstudio-img{
-        margin-left: 130px;
+        /* margin-left: 130px; */
+        margin: 0;
     }
 
     .burger{
-        /* margin-left: auto; */
-        display: block;
-        margin-right: 122px;
+        /* display: block; */
+        margin-right: 40px;
         width: 30px;
     }
+
     .title-text{
         font-size: 6vw;
         height: 38vh;
         width: 65vw;
-        /* padding-top: 50px; */
         left: 150px;
         font-weight: 500;
     }
 
-    .middle-container{
-        
+    .middle-container{        
         width: 100vw;
-                
-        /* justify-content: center; */
-                
-        /* align-items: center; */
-                
-        /* align-content: center; */
-                
-        padding: 0;
-                
-        height: 85vh;
-                
+        padding: 0;                
+        height: 85vh;                
         margin-top: 450px;
-            }
+    }
             
-            .middle-container img {
-           
-width: 80vw;
-           
-position: static;
-           
-margin-left: 10vw;
-        }
+    .middle-container img {           
+        width: 80vw;
+        position: static;
+        margin-left: 10vw;
+    }
             
-            .interactive-text{
-              
-/* bottom: 0; */
-              
-/* left: -62%; */
-              
-/* top: 110px; */
-              
-/* right: 150px; */
-              
-/* position: fixed; */
-              
-/* margin-left: -226px; */
-              
-margin-top: x;
-              
-/* margin-right: 150px; */
-              
-/* margin-top: 200px; */
-              
-/* padding-top: 200px; */
-              
-/* padding: 0; */
-              
-/* margin-top: 250px; */
-              
-/* width: 80vw; */
-              
-/* margin-left: 10vw; */
-              
-margin: 0;
-              
-padding: 0;
-              
-position: static;
-              
-margin-top: 80px;
-            }
+    .interactive-text{
+        margin: 0;
+        padding: 0;
+        position: static;
+        margin-top: 80px;
+    }
             
-            .interactive-header{
+    .interactive-header{
               
 text-align: center;
               
@@ -672,14 +673,28 @@ margin-left: 37vw;
 
     .title-text{
         font-size: 3.2rem;
-        width: 90%;
-        left: 30px;
+        width: 80vw;
+        left: 25px;
         line-height: 1.3;
         padding: 45px;
+        /* margin: 0; */
+        margin-left: 38px;
+        vw; */
+    }
+
+    .navlinks{
+        
+margin-left: 14.5vw;
+    }
+
+    nav ul li {
+        padding: 0 2.2vw;
     }
 
     .loopstudio-img{
-        margin-left: 15px;
+        margin-left: px;
+        z-index: 53;
+        /* margin-left: 10vw; */
     }
 
     .burger{
@@ -857,15 +872,28 @@ margin-top: 35vw;
         top: 0;
     }
 
+    nav{
+        display: flex;
+    }
+
+    .navlinks{
+        display: none;
+    
+    }
+
+    .burger{
+        display: block;
+    }
+
 
     .title-text{
         height: 36vh;
         font-size: 7.5vw;
         padding: 45px;
+        left: 11px;
     }
 
     .loopstudio-img{
-        margin-left: 10px;
     }
 
     .interactive-text{
@@ -922,6 +950,21 @@ font-size: 3vw;
         top: 0;
     }
 
+    .menu-links ul {        
+        margin-top: 35vh;
+    }
+
+    .menu-links ul li {
+        margin-top: 20px;
+        margin-left: 5vw;
+    }
+
+    .menu-links ul li a{
+        color: white;
+        font-size: xx-large;
+        font-family: Josefin Sans;
+    }
+
 @media only screen and (max-width:450px){
 
     .desktop-bg{
@@ -937,10 +980,11 @@ font-size: 3vw;
     }
 
     .title-text{
-        font-size: 9vw;
+        font-size: 2.3rem;
         padding: 25px;
-        left: 15px;
-        padding-top: 35px;
+        left: -25px;
+        padding-top: 47px;
+        width: 370px;
     }
 
     .middle-container{
@@ -1182,6 +1226,8 @@ margin: 0;
        .title-text{
            height: auto;
            font-size: 8vw;
+           left: -25px;
+           width: 300px;
        }
 
        nav img{          
