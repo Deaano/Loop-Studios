@@ -131,7 +131,7 @@ nav ul li {
     width: 49rem;
     letter-spacing: 6px;
     font-weight: 300;
-    line-height: 69px;
+    line-height: 1.3;
 }
 
 /*      MIDDLE CONTAINER      */
@@ -678,8 +678,8 @@ margin-left: 37vw;
         font-size: 3rem;
         width: 80vw;
         left: 95px;
-        line-height: 1.3;
-        padding: 45px;
+        /* line-height: 1.3; */
+        padding: 6vw 5vw  3vw;
         /* margin: 0; */
         margin-left: -35px;
         vw; */
@@ -898,13 +898,14 @@ margin-top: 35vw;
 
 
     .title-text{
+        line-height: 1.4;
         height: auto;
         font-size: 7.5vw;
         /* padding: 45px; */
         /* left: -5px; */
         position: static;
         width: 80vw;
-        margin-left: 8vw;
+        margin-left: 10vw;
         margin-top: 20vh;
     }
 
@@ -999,6 +1000,8 @@ font-size: 3vw;
         font-family: Josefin Sans;
     }
 
+}
+
 @media only screen and (max-width:450px){
 
     .desktop-bg{
@@ -1016,12 +1019,13 @@ font-size: 3vw;
     .title-text{
         font-size: 2.3rem;
         /* left: -25px; */
-        padding-top: 47px;
+        /* padding-top: 47px; */
         width: 90vw;
         position: static;
         margin: 0;
-        margin-left: 3vw;
+        margin-left: 5vw;
         margin-top: 15vh;
+        line-height: 1.4;
     }
 
     .middle-container{
@@ -1058,18 +1062,7 @@ margin-left: 10vw;
       
 /* right: 150px; */
       
-/* position: fixed; */
-      
-/* margin-left: -226px; */
-      
-margin-top: x;
-      
-/* margin-right: 150px; */
-      
-/* margin-top: 200px; */
-      
-/* padding-top: 200px; */
-      
+
 padding: 0;
       
 /* margin-top: 250px; */
@@ -1191,9 +1184,7 @@ width: 100vw;
 margin: 0;
     }
 
-    .footer-logo{
-    }
-
+    
     .footer{
     height: 65vh;
     text-align: center;
@@ -1229,6 +1220,7 @@ margin: 0;
 .mb-footer-social-icon-facebook{
     display: block;
     width: 30px;
+    margin-left: -12px;
 }
 
 .mb-icons{
@@ -1250,7 +1242,8 @@ margin: 0;
 }
 
 @media only screen and (max-width:345px) {
-   body{
+   
+    body{
        overflow-x: hidden;
        
    }
@@ -1262,11 +1255,10 @@ margin: 0;
 
        .title-text{
            height: auto;
-           font-size: 10vw;
-           /* left: -25px; */
+           font-size: 9vw;
            width: 80vw;
-           padding: 5px;
            margin-left: 8vw;
+           line-height: 1.2;
        }
 
        nav img{          
@@ -1286,8 +1278,38 @@ margin: 0;
        .middle-container{
            margin-top: 350px;
        }
+}
 
-       
-     
+@media only screen and (max-height:450px) {
+
+    .bg{
+        
+height: 130vh;
+    }
+
+    .title-text{
+        font-size: 9vh;
+        padding-top: 32px;
+        height: 38vh;
+    }
+
+    .middle-container{
+
+margin-top: 100vh;
 
 }
+
+    .middle-container img{
+
+height: 55vh;
+
+width: 50vw;
+
+margin-left: 15vw;
+
+}
+    
+    
+}
+
+
