@@ -1282,6 +1282,10 @@ margin: 0;
 
 @media only screen and (max-height:450px) {
 
+    body{
+        overflow-x: visible;
+    }
+
     .bg{
         
 height: 130vh;
@@ -1289,8 +1293,9 @@ height: 130vh;
 
     .title-text{
         font-size: 9vh;
-        padding-top: 32px;
+        padding-top: 27px;
         height: 38vh;
+        width: 75vw;
     }
 
     .middle-container{
