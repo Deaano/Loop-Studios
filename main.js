@@ -10,7 +10,7 @@ burger.addEventListener("click", function () {
 
     cross.style.display = "block";
 
-    
+    logo.style.display = 'none';
 
 });
 
@@ -21,7 +21,7 @@ cross.addEventListener("click",function(){
 
     cross.style.display = "none";
    
-    
+    logo.style.display ='block';
 });
 
 window.addEventListener("click",function(event){
