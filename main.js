@@ -1,29 +1,25 @@
 const burger = document.querySelector("#burger");
 const cross = document.querySelector("#close-menu")
-const menu = document.querySelector("#menu");
+const menu = document.querySelector("#mobile-menu");
 const logo = document.querySelector("#logo");
 
 burger.addEventListener("click", function () {
 
-    menu.classList.remove("menu")
-    menu.classList.add("menu-show")
+    menu.classList.remove("mobile-menu")
+    menu.classList.add("mobile-menu-show")
 
     cross.style.display = "block";
 
-    logo.classList.replace("loopstudio-img-menu");
-
-
+    
 
 });
 
 cross.addEventListener("click",function(){
 
-    menu.classList.remove("menu-show")
-    menu.classList.add("menu")
+    menu.classList.remove("mobile-menu-show")
+    menu.classList.add("mobile-menu")
 
     cross.style.display = "none";
-
-    logo.style.position = "unset";
    
     
 });
