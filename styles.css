@@ -8,6 +8,8 @@ body {
     overflow-x: hidden;
 }
 
+                                                        /*    MOBILE MENU   */
+
 .mobile-menu {
     display: none;
 }
@@ -39,7 +41,7 @@ body {
     margin-top: 120px;
 }
 
-/*      NAVBAR      */
+                                                                 /*      NAVBAR      */
 
 nav {
     display: flex;
@@ -95,7 +97,7 @@ nav ul li {
     left: 80vw;
 }
 
-/*       LANDING PAGE       */
+                                                           /*       LANDING PAGE       */
 
 .bg {
     position: absolute;
@@ -132,7 +134,7 @@ nav ul li {
     line-height: 1.3;
 }
 
-/*      MIDDLE CONTAINER      */
+                                                          /*      MIDDLE CONTAINER      */
 
 .middle-container {
     height: 95vh;
@@ -174,7 +176,7 @@ nav ul li {
     color: hsl(0, 0%, 55%);
 }
 
-/*        CREATION HEADER & BUTTON        */
+                                                     /*        CREATION HEADER & BUTTON        */
 
 .creations-container {
     display: flex;
@@ -220,13 +222,14 @@ nav ul li {
     display: none;
 }
 
-/*      THIRD CONTAINER     */
+                                                        /*      THIRD CONTAINER     */
 
 .third-container {
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
     margin-left: 115px;
+    padding-left: 32px;
 }
 
 .img-box {
@@ -270,7 +273,7 @@ nav ul li {
     color: black;
 }
 
-/*      FOOTER      */
+                                                            /*      FOOTER      */
 
 .footer {
     position: relative;
@@ -310,6 +313,8 @@ nav ul li {
     padding-bottom: 4px;
 }
 
+                                                      /*  MOBILE FOOTER ICONS  */
+
 .mb-footer-social-icon-facebook {
     display: none;
 }
@@ -346,6 +351,8 @@ nav ul li {
     margin-bottom: 20px;
     margin-left: 50px;
 }
+
+                 /* MEDIA QUERIES   "Sooooo Many media Queries This is my first attemp of responsive, I apologise :)"  */
 
 @media only screen and (max-width:1240px) {
 
